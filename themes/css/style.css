@@ -1,0 +1,136 @@
+#footer {
+	background-color: #e5e5e6;
+}
+
+#search_form {}
+
+#userarea{}
+
+.frm{display:none;}
+
+.frms{
+position:absolute;
+left: -30px;
+top: 70px;
+width:260px; height:200px;
+z-index: 20;
+border:1px solid lightgray;
+border-radius: 6px; 
+-moz-border-radius: 6px; 
+-webkit-border-radius: 6px;
+-khtml-border-radius: 6px;
+-o-border-radius: 6px; 
+behavior: url(/themes/border-radius.htc); 
+-moz-box-shadow:0px 0px 5px #333;
+-webkit-box-shadow:0px 0px 5px #333;
+box-shadow:0px 0px 5px #333;
+background:#FFF;
+}
+
+/* minicart */ 
+
+.hide_minicart{
+display:none;
+}
+
+.show_minicart{
+position:absolute;
+left: 0px;
+top: 20px;
+width:230px;
+margin:0;
+border:1px solid lightgray;
+background: #FFF;
+z-index:50;
+}
+/* end mini cart */
+
+
+
+
+#category ul{margin-left:5px; margin-bottom:3px;}
+#category li{list-style:none;}
+#category li {margin-left:7px;} 
+
+#formlogin ul{margin:0; padding:5px;}
+
+#formlogin{
+background:#FFF;
+border:1px solid lightgray;
+}
+
+#formlogin ul li{
+list-style:none;
+margin:10px;
+}
+
+.product_column{
+margin:3px;
+padding:5px;
+width:180px;
+height:260px;
+float:left;
+border:1px solid lightgray;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px; 
+	-khtml-border-radius: 5px;
+behavior: url(/themes/border-radius.htc); 
+overflow:hidden;
+background:#FFF;
+}
+
+.product_column p{
+padding:0;
+}
+ 
+.product_column .image{
+width:100px;
+}
+ 
+.product_column .title{
+font-size:12px;
+padding-top:2px;
+}
+  
+.product_column .f-bu{
+
+}  
+
+#product{
+float:left;
+margin-bottom:5px;
+margin-top:5px;
+background:#FFF;	
+}
+
+
+#product .image {
+float: left;
+width:150px;
+height:200px;
+padding:5px;
+border: 1px solid lightgray;
+}
+
+#product  .images img{
+  margin-top:4px;
+float:left;
+width: 80px;
+height:120px;
+  border: 1px solid #ccc;
+}
+#product  img:hover{
+    cursor: pointer;
+    border: 1px solid darkblue;
+}  
+
+
+
+.pagination strong {
+    border:1px solid #000;
+    background: #ccc;
+    color:#000;
+    font-weight: bold;
+    padding: 3px 7px;

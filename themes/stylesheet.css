@@ -1,0 +1,235 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #FFFFFF;
+}
+
+body, td, th, input, select, textarea, option, optgroup {
+font: 12px/18px Arial, Tahoma, Verdana, sans-serif, Geneva;
+color: #000000;
+}
+
+#header{
+width:980px; 
+height:20px;
+margin:0;
+padding:10px;
+color:#fff; 
+background:#0e517d;
+text-align:right;
+
+}
+
+#header a{
+color:#fff;
+}
+
+fieldset, legend {border:1px solid gray;}
+
+input[type='text'], input[type='password'] {
+	padding: 2px;
+}
+select {
+	padding: 1px;
+}
+textarea {
+	padding: 2px;
+}
+a, a:visited {
+	color: #003366;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a img {
+	border: 0;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+label {
+	cursor: pointer;
+}
+
+table
+{
+border-collapse:collapse;
+border-spacing: 0;
+}
+
+table,th, td
+{
+padding:5px;
+vertical-align:top;
+}
+
+table.border {
+border: 1px solid lightgray;
+}
+table.border th {
+border: 1px solid lightgray;
+	-moz-border-radius: ;
+}
+table.border td {
+border: 1px solid lightgray;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#menu {
+	background: #000;
+	position: relative;
+	z-index: 1;
+	height: 36px;
+	clear: both;
+	padding: 0px 30px;
+	min-width: 900px;
+}
+#menu > ul.left {
+	float: left;
+}
+#menu > ul.right {
+	float: right;
+}
+#menu > ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#menu > ul ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+#menu > ul a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px;		
+}
+#menu > ul > li + li {
+	background: url('/image/split.png') center left no-repeat;
+
+}
+#menu > ul .top, #menu > ul li li.sfhover {
+	padding: 10px 15px 9px 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#menu > ul ul li {
+	padding: 2px;
+border-bottom:1px solid #cccccc;
+}
+#menu > ul .selected .top {
+	background: url('/image/selected.png') repeat-x;
+	color: #FFFFFF;
+}
+#menu > ul .selected:hover a.top, #menu > ul .sfhover a.top {
+}
+#menu > ul .parent {
+	background: url('/image/arrow-right.png') 95% center no-repeat;
+}
+#menu > ul li {
+	float: left;
+	list-style: none;
+}
+#menu > ul li ul {
+	position: absolute;
+}
+#menu > ul li li {
+	clear: both;
+}
+#menu > ul li ul a {
+	color: #FFFFFF;
+	height: 15px;
+	width: 145px;
+	
+}
+#menu > ul li ul ul {
+	margin: -27px 0 0 157px;
+}
+#menu > ul li li:hover, #menu > ul li li.sfhover {
+	background: #333;
+	color: #000000;
+}
+#container {
+	height: 100%;
+}
+body > #container {
+	height: auto;
+	min-height: 100%;
+}
+#content {
+	padding: 10px 30px 0px 30px;
+	min-width: 900px;
+	padding-bottom: 128px;
+}
+
+.error_msg{
+	padding: 7px;
+	margin-bottom: 7px;
+	background: #FFDFE0;
+	border: 1px solid #FF9999;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana, sans-serif, Geneva;
+	text-align: center;
+	color:red;
+	font-weight:bold;
+}
+
+.border{
+border:1px solid lightgray;
+}
+
+.success {
+	padding: 10px 10px 10px 33px;
+	margin-bottom: 15px;
+	background: #EAF7D9 url('/image/success.png') 10px center no-repeat;
+	border: 1px solid #BBDF8D;
+	color: #555555;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.warning {
+	padding: 10px 10px 10px 33px;
+	margin-bottom: 15px;
+	background: #FFD1D1 url('/image/warning.png') 10px center no-repeat;
+	border: 1px solid #F8ACAC;
+	color: #555555;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.attention {
+	padding: 10px 10px 10px 33px;
+	margin-bottom: 15px;
+	background: #FFF5CC url('/image/attention.png') 10px center no-repeat;
+	border: 1px solid #F2DD8C;
+	color: #555555;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.required {
+	color: #FF0000;
+	font-weight: bold;
+}
